@@ -8,7 +8,8 @@ Scala Try-catch:
   catch{
     //exception
     case a: ArithmaticException => 0
-    case b: SomeOtherException => println("SomeOtherExCeption")
+    //case b: SomeOtherException => println("SomeOtherExCeption")
+    //case c: AnotherException => returnSomething or printSomething
   }
   finally{
     //the always executed after exception handled block
