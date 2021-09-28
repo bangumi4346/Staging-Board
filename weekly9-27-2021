@@ -1,0 +1,17 @@
+Scala Try-catch:
+
+  try{
+    //some codes
+    //for example Arithmatic dividing by 0
+    var divideByZero = 10/0
+  }
+  catch{
+    //exception
+    case a: ArithmaticException => 0
+    case b: SomeOtherException => println("SomeOtherExCeption")
+  }
+  finally{
+    //the always executed after exception handled block
+    println("this is the finally block")
+  }
+  
